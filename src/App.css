@@ -1,0 +1,78 @@
+/* this demo contains some very poor CSS */
+
+.App {
+	background: #abe5f5;
+	text-align: center;
+	min-height: 100vh;
+}
+
+.App-header {
+	background-color: #021e57;
+	min-height: 10vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(2px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+.appointmentList {
+	width: 62rem; /* a handy example of dodgy CSS practices */
+	margin: 0 auto;
+}
+
+.appointmentList div {
+	background-color: #9bbdffaf;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.appointmentList span {
+	padding: 0;
+	text-align: center;
+	border: 2px solid #021e57;
+	height: 3rem;
+	flex-grow: 1;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 12rem;
+}
+
+.appointmentList div:nth-child(2) {
+	background-color: rgba(250, 235, 215, 0.493);
+}
+
+.apptId {
+	font-size: 50%;
+}
+.apptDate {
+	font-weight: bold;
+}
+.apptPerson {
+}
+.apptDesc {
+	font-style: italic;
+}
+.apptConfirmation {
+}
+.confirmed {
+	color: green;
+	font-size: 120%;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
